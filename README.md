@@ -41,12 +41,10 @@ allowing multiple simultaneous predictions per tile.
 | 2 | Head + layer3 + layer4 | 8 | 1e-4 |
 | 3 | All layers | 15 | 1e-5 (cosine) |
 
-============================================================
-  ABLATION STUDY RESULTS
-============================================================
-Condition                                mAP   F1 Macro
-------------------------------------------------------------
-Random init (no pretrained)           0.8207     0.7119
-Frozen pretrained backbone            0.8759     0.7478
-3-stage fine-tuned (ours)             0.9688     0.9466
-============================================================
+## ABLATION STUDY RESULTS
+
+| Condition | mAP | F1 Macro |
+|-------|---------------|--------|
+| Random init (no pretrained)| 0.8207 | 0.7119 |
+| Frozen pretrained backbone | 0.8759 | 0.7478 |
+| 3-stage fine-tuned (ours)  | 0.9688 | 0.9466 |
